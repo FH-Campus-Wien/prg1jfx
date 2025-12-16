@@ -1,6 +1,9 @@
 # prg1jfx
 
 ```
+ @Override
+    public void start(Stage stage) throws IOException 
+    {
         Label nameLbl= new Label("Name:");
         nameLbl.setPrefWidth(40);
         TextField nameTxt= new TextField();
@@ -15,5 +18,6 @@
         Scene scene = new Scene(pane, 300 , 400);
         stage.setTitle("Hello!");
         stage.setScene(scene);
-        stage.show();       
+        stage.show();
+    }
 ```
